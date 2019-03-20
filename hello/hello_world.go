@@ -6,7 +6,7 @@ import (
 	"github.com/rshark/golang_studying/stringutil"
 )
 
-func main()  {
+func main() {
 	fmt.Println("Hello, world.")
 	fmt.Println(stringutil.Reverse("!oG, olleH"))
 }
