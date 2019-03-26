@@ -33,4 +33,6 @@ func jsonIntentExample() {
 	var out bytes.Buffer
 	json.Indent(&out, b, "=", "\t")
 	out.WriteTo(os.Stdout)
+
+	//	json.Compact()
 }
