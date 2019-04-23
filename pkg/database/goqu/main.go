@@ -314,4 +314,7 @@ func main() {
 	).ToSql()
 	fmt.Println(sql)
 
+	crudExec := db.From("test").Insert([]goqu.Record{{"name": "Bob", "country": "UK"}, {"name": "Alice", "country": "AM"}})
+	sql = crudExec.Sql
+	fmt.Println(sql)
 }
