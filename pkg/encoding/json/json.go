@@ -55,7 +55,7 @@ type studentNoTag struct {
 }
 
 func jsonUnmarshal() {
-	data := []byte(`{"name":"张三","age":"18"}`)
+	data := []byte(`{"name":"张三","age":"9岁","class":"三年级"}`)
 
 	var stuLowC studentLowC
 	var stuUpperC studentUpperC
