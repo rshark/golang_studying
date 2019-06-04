@@ -6,5 +6,6 @@ import (
 )
 
 func main() {
-	fmt.Println(time.Now())
+	var expiration time.Duration
+	fmt.Println("timeDuration default ", expiration)
 }
